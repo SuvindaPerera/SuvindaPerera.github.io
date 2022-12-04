@@ -1,12 +1,12 @@
 import './style.css';
-import * as THREE from 'three'
-import {MOUSE,TOUCH} from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import * as THREE from './three'
+import {MOUSE,TOUCH} from './three'
+import { OrbitControls } from './three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
-import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
+import { GLTFLoader } from './three/examples/jsm/loaders/GLTFLoader.js';
+import { RenderPass } from './three/examples/jsm/postprocessing/RenderPass.js';
+import { EffectComposer } from './three/examples/jsm/postprocessing/EffectComposer.js';
+import { UnrealBloomPass } from './three/examples/jsm/postprocessing/UnrealBloomPass.js';
 // import skyImage from '../texture/height2.jpg'
 
 
